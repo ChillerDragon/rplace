@@ -1,7 +1,7 @@
 class Pixel < ActiveRecord::Base
     MAP_HEIGHT = 50
     MAP_WIDTH = 50
-    COLORS = %w(red green blue)
+    COLORS = %w(red green blue white)
 
     validates :x, presence: true
     validates :y, presence: true
