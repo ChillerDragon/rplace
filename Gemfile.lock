@@ -19,6 +19,7 @@ GEM
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    pkg-config (1.5.2)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -26,6 +27,8 @@ GEM
     rack-protection (2.1.0)
       rack
     rake (13.0.6)
+    rmagick (5.3.0)
+      pkg-config (~> 1.4)
     ruby2_keywords (0.0.5)
     sinatra (2.1.0)
       mustermann (~> 1.0)
@@ -52,6 +55,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   rake
+  rmagick
   sinatra
   sinatra-activerecord
   sinatra-contrib

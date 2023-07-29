@@ -1,4 +1,4 @@
-class Pixel < ActiveRecord::Base
+class PlacePixel < ActiveRecord::Base
     MAP_HEIGHT = 50
     MAP_WIDTH = 50
     COLORS = %w(red green blue white)

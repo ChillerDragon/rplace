@@ -1,5 +1,5 @@
-Pixel.destroy_all
+PlacePixel.destroy_all
 
 (1..10).each do |x|
-    Pixel.create(x:, y: 1, color: 'green')
+    PlacePixel.create(x:, y: 1, color: 'green')
 end

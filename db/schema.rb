@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_07_27_131328) do
-  create_table "pixels", force: :cascade do |t|
+  create_table "place_pixels", force: :cascade do |t|
     t.integer "x"
     t.integer "y"
     t.string "color"
